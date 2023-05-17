@@ -1,0 +1,88 @@
+ img {
+    isolation: isolate;
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rrr {
+    background-color: #2a5253;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+}
+.rrr::before {
+content: "";
+background-image: url("h1\ background-image.jpeg");
+background-size: cover;
+position: absolute;
+inset: 0;
+opacity: 0.2;
+}
+
+.ggg {isolation: isolate;
+    background-color: "";
+    font-family: poppins;
+    color:  white;
+    text-align: center;
+    padding-top: 15px;
+}
+h1{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+footer {
+    isolation: isolate;
+}
+ul  { margin: 30px auto;
+    padding: 50px 70px;
+    text-align: center;
+    }
+nav a {
+    color: #2f4f4f;
+    text-decoration: none;
+    
+}
+.wears {
+    isolation: isolate;
+    display: inline-block;
+    font-size: 20px;
+  font-weight: 10px;
+  text-transform: uppercase; 
+background-color: white;
+width: 200px;
+padding: 50px 70px;
+margin: 10px 30px;
+}
+.wears:hover {
+background-color: darkcyan;
+}
+li{
+    list-style-type: none;
+}
+h6 {
+    color: white;
+}
+.cloths {
+    isolation: isolate;
+    display: inline-block;
+}
+body {
+    margin: 0;
+}
+#subsidiary {
+    border: 1px solid #fff;
+    padding: 20px 10px;
+    margin: 15px 600px;
+    border-radius: 50%;
+}
