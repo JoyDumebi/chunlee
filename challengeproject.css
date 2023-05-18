@@ -1,0 +1,131 @@
+#heading8 { 
+    background-color: rgb(189,183,107);
+    text-align: center;
+    margin-top: 0;
+    font-size: 100px;
+    margin-bottom: 0px;
+  }
+  body{
+    margin: 0px;
+  }
+  #heading7 {
+    background-color: rgb(240, 230, 140);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0; /* Adjust this value */
+  }
+  
+  .after-header {
+    background-color: rgb(47, 79, 79);
+    margin-top: 0;
+    height: 100%;
+    padding-top: 50px;
+    margin-bottom:0px;
+    padding-bottom: 50px;
+  }
+  #accordion {
+    width: 1300px;
+  }
+  #accordion li {
+    list-style: none;
+    width: 100%;
+    background: rgb(189,183,107);
+    padding: 25px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+  }
+  #accordion li label {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 800px;
+    cursor: pointer;
+    color: rgb(47, 79, 79);
+  }
+  #accordion li label span {
+    transform: rotate(90deg);
+    font-size: 25px;
+    color: black;
+  }
+  #accordion label + input[type="radio"] {
+    display: none;
+  }
+  #accordion .content {
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  #accordion label + input[type="radio"]:checked + .content {
+    max-height: 800px;
+  }
+  #kool-mint, #kool-pink, #kool-blue {
+    width: 150px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  #kool-pink {
+    background-color: rgb(255,182,193);
+  }
+  #kool-mint {
+    background-color: rgb(0,255,255);
+  }
+  #kool-blue {
+    background-color: rgb(0,191,255);
+  }
+  #inline {
+    display: flex;
+    justify-content: space-between;
+  }
+  #cool-mint, #cool-pink, #cool-blue {
+    text-align: center;
+  }
+  #sanserif {
+    font-family: sans-serif;
+  }
+  #serif {
+    font-family: serif;
+  }
+   #monospace{
+    font-family: monospace;
+  }
+  #cursive {
+    font-family: cursive;
+  }
+  #fantasy {
+    font-family: fantasy;
+  }
+  #dottedwhite {
+    border: 2px dotted white;
+    } 
+    #dashedblue {
+      border: 3px dashed blue;
+    }
+    #grooveorange
+    {
+      border: 4px groove orange;
+      }
+      #solidpink {
+        border: 3px solid rgb(255,20,147);
+        text-align: center;
+        padding: 10px;
+        }
+  .bordered {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:25px;
+    
+  }
+  .content p {
+    line-height: 40px;
+  }
